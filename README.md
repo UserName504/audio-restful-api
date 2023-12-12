@@ -16,6 +16,12 @@ Afterwards, run the following:
 
 ## TESTING:
 
+#/adjust_volume
+
+The use of [Postman](https://www.postman.com/) is recommended for endpoint testing.
+
+To adjust dBFS, the parameters need to be formatted like so:
+
 ```json
 {
     "input_file": "uploads/AudioExample01.wav",
@@ -23,6 +29,8 @@ Afterwards, run the following:
     "target_dBFS": -50
 }
 ```
+
+In this example, `processed_AudioExample01.wav` will be added to the `upoads` folder.
 
 * Scrape ALL data, not just one month at a time.
 * Output data to `.csv` file.
