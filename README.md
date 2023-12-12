@@ -41,3 +41,10 @@ All currently uploaded files can be viewed at `http://127.0.0.1:8000/listfiles/`
 Here's an example URL to download a file currently in the uploads folder: 
 
 `http://127.0.0.1:8000/downloadfile/processed_AudioExample01.wav`
+
+## API TESTING:
+
+To test the API endpoints, open the repo in VSCode (or something similar) and run the following:
+> ```sh
+> $ pytest test_main.py>
+> ```
