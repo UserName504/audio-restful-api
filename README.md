@@ -8,21 +8,20 @@ Run the following command to build the Docker image:
 > ```sh
 > $ docker build -t audio-restful-api .
 > ```
-Here, `venv` is just an example, the virtual environment can be given *any* name.
 
 Afterwards, run the following:
 > ```sh
 > $ docker compose up --build
 > ```
 
-Upon activation, run `pip list`. Only `pip` and `setuptools` should be installed in the virtual environment.
+## TESTING:
 
-To install requirements, run:
-> ```sh
-> $ pip install -r requirements.txt
-> ```
-
-## Future work:
+```json
+{
+    "input_file": "uploads/AudioExample01.wav",
+    "output_file": "uploads/processed_AudioExample01.wav",
+    "target_dBFS": -50
+}
 
 * Scrape ALL data, not just one month at a time.
 * Output data to `.csv` file.
