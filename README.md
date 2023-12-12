@@ -1,18 +1,18 @@
-# not-a-blog-scraper
+# audio-restful-api
 
-An exercise in webscraping, to scrape data from George R.R. Martin's [Not A Blog](https://georgerrmartin.com/notablog/), in particular.
+A RESTful API, made with [FastAPI](https://fastapi.tiangolo.com/), that allows users to upload, download, and adjust the volume of audio files in Decibel Full Scale (dBFS).
 
 ## Setup
 
-Be sure to use a virtual environment:
+Run the following command to build the Docker image:
 > ```sh
-> $ python3 -m venv venv
+> $ docker build -t audio-restful-api .
 > ```
 Here, `venv` is just an example, the virtual environment can be given *any* name.
 
-To activate the virtual environment, run the following command:
+Afterwards, run the following:
 > ```sh
-> $ source venv/bin/activate
+> $ docker compose up --build
 > ```
 
 Upon activation, run `pip list`. Only `pip` and `setuptools` should be installed in the virtual environment.
