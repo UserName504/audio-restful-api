@@ -21,7 +21,8 @@ Afterwards, run the following:
     "input_file": "uploads/AudioExample01.wav",
     "output_file": "uploads/processed_AudioExample01.wav",
     "target_dBFS": -50
-}```
+}
+```
 
 * Scrape ALL data, not just one month at a time.
 * Output data to `.csv` file.
