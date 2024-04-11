@@ -48,3 +48,7 @@ To test the API endpoints, open the repo in VSCode (or something similar) and ru
 > ```sh
 > $ pytest test_main.py
 > ```
+
+## FUTURE WORK:
+
+Next on the list is some kind of front end.
